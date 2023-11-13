@@ -1,6 +1,6 @@
 FROM nginx:alpine
 WORKDIR /usr/share/nginx/html/
 COPY . /usr/share/nginx/html/
-Expose 5000
+EXPOSE 5000
 
 
